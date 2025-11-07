@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Abhik-04/SPE_Mini_Proj'
+                git 'https://github.com/abhik2004/SPE_Mini_Proj'
             }
         }
         stage('Run Tests') {
