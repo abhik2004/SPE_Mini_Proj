@@ -23,7 +23,7 @@ def menu():
             y = float(input("Enter exponent: "))
             print("Result:", math.pow(x, y))
         elif choice == "5":
-            print("Bye!")
+            print("Bye.")
             break
         else:
             print("Invalid choice.")
