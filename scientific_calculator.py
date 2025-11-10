@@ -1,5 +1,7 @@
 import math
 
+# new comment
+
 
 def menu():
     print("1. Square root")
@@ -23,7 +25,7 @@ def menu():
             y = float(input("Enter exponent: "))
             print("Result:", math.pow(x, y))
         elif choice == "5":
-            print("Bye.")
+            print("Exited")
             break
         else:
             print("Invalid choice.")
